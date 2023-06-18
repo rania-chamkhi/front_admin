@@ -1,0 +1,224 @@
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .element {
+    animation: bounce 1s infinite;
+  }
+
+  
+    
+
+ 
+  .card-c {
+    width: 100%;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    animation: cardAnimation 1s ease-in-out forwards;
+    }
+    
+    @keyframes cardAnimation {
+    from {
+    transform: translateY(-100px);
+    opacity: 0;
+    }
+    to {
+    transform: translateY(0);
+    opacity: 1;
+    }
+    }
+    
+    .card-header-c {
+      background-color: #ffffff;
+    animation: headerAnimation 0.5s ease-in-out forwards;
+    text-align: center;
+    }
+    
+    @keyframes headerAnimation {
+    from {
+    transform: scaleX(0);
+    opacity: 0;
+    }
+    to {
+    transform: scaleX(1);
+    opacity: 1;
+    }
+    }
+    
+    .search12 {
+      animation: searchAnimation 1s ease-in-out forwards;
+    }
+    
+    @keyframes searchAnimation {
+      from {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    
+    .table-border-style-c {
+    animation: tableAnimation 1s ease-in-out forwards;
+    }
+    
+    @keyframes tableAnimation {
+    from {
+    transform: scaleY(0);
+    opacity: 0;
+    }
+    to {
+    transform: scaleY(1);
+    opacity: 1;
+    }
+    }
+    
+    .text-center1 {
+      text-align: center;
+    animation: textAnimation 0.5s ease-in-out forwards;
+    }
+    
+    @keyframes textAnimation {
+    from {
+    transform: rotate(-180deg);
+    opacity: 0;
+    }
+    to {
+    transform: rotate(0);
+    opacity: 1;
+    }
+    }
+    .table-responsive-c {
+      overflow-x: auto;
+    }
+    
+    .table-c {
+      font-size: 14px;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .table-c th {
+      background-color: #aa5f67;
+      color: #fff;
+      font-weight: 500;
+      text-align: center;
+      vertical-align: middle;
+      border: 4px solid #ddd;
+      padding: 14px;
+    }
+    
+    .table-c td {
+      border: 1px solid #653636;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    
+    
+    
+    .table-c tbody tr:nth-child(even) {
+      background-color: #e6eff5;
+    }
+    
+    .table-c tbody tr:hover {
+      background-color: #e2e2e2;
+    }
+    
+    .btn-default-c {
+      background-color: #f8f9fa;
+      border-color: #f8f9fa;
+      color: #212529;
+    }
+    
+    .btn-default-c:hover {
+      background-color: #e2e6ea;
+      border-color: #dae0e5;
+      color: #212529;
+    }
+    
+    .btn-danger-c {
+      background-color: #dc3545;
+      border-color: #dc3545;
+      color: #fff;
+    }
+    
+    .btn-danger-c:hover {
+      background-color: #c82333;
+      border-color: #bd2130;
+      color: #fff;
+    }
+    
+    .btn-rounded-c {
+      border-radius: 50%;
+    }
+    
+    .btn-sm-c {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    
+    .text-center-c {
+      position: relative;
+    
+    }
+    
+    .text-center-c i {
+      display: inline-block;
+      position: relative;
+      color: #641b55;
+      text-shadow: 0px 0px 5px #a23939;
+      font-size: '25px'; 
+      color: '#6e001d';
+      text-Shadow: '1px 1px #ccc'
+      
+    }
+    
+   
+
+    .ligne-c {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+        margin-bottom: 1rem;
+        animation-name: slideInRight;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+      }
+      
+      .ligne-c i {
+        font-style: italic;
+        color: #888;
+      }
+      
+      .search12 input[type="text"] {
+        width: 20%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #c6afaf;
+        border-radius: 4px;
+        background-color: white;
+        font-size: 16px;
+        border-radius: 20%;
+      }
+      
+      .search12 input[type="text"]:focus {
+        border: 2px solid #24a429;
+      }

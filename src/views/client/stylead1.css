@@ -1,0 +1,190 @@
+
+    
+    
+    .profile .grid-header {
+        background: url('https://libg.s3.us-east-2.amazonaws.com/download/Clouds-In-Pastel-Colors.jpg') no-repeat center center;
+        background-size: cover;
+        color: #f5f5f5;
+        height: 260px  ;
+        
+    }
+    
+    .profile img {
+      
+        width: 10%;
+        height: 150px !important;
+        
+    }
+    
+    .profile .grid-header img {
+        margin: 2em 1em;
+        margin-top: 2px
+        
+    }
+    
+    .profile .grid-header h3 {
+        color: #f5f5f5 !important;
+        font-weight: 400;
+        margin: 30px 0 20px 0;
+        margin-top: -0.1%;
+       
+    }
+    
+    .profile .grid-header p {
+        margin-bottom: 5px;
+        margin-top: -1%;
+       
+    }
+    
+    .profile .grid-header p a {
+        color: #f5f5f5;
+    }
+    
+    .profile .grid-body {
+        font-size: 1em;
+        
+    }
+    
+    .profile .tab-content {
+        padding-bottom: 0px;
+    }
+    
+    .profile .stats {
+        margin-top: 20px;
+        padding: 0px 0px 20px;
+        background: #eee;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    
+    .profile .stats h1 {
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    
+    .profile .stats span {
+        margin: 5px 0 10px 0;
+        display: block;
+    }
+    
+    .profile .stats .btn {
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+    
+    .profile .timeline-centered {
+        font-size: 1.15em;
+    }
+    
+    .profile .timeline-centered:before {
+        background: #eee;
+    }
+    
+    .profile .bg-default {
+        border: 1px solid #bbb;
+    }
+    
+    
+    .grid {
+        position: relative;
+        width: 70%;
+        background: #fff;
+        color: #666666;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        margin-left: 12%;
+        margin-top: 1%;
+        height: 800px  ;
+        
+    }
+    
+    .grid .grid-header {
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        padding: 15px 10px 10px 20px;
+    }
+    
+    .grid .grid-header:before,
+    .grid .grid-header:after {
+        display: table;
+        content: " ";
+    }
+    
+    .grid .grid-header:after {
+        clear: both;
+    }
+    
+    .grid .grid-header span,
+    .grid .grid-header > .fa {
+        display: inline-block;
+        margin: 0;
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    
+   
+    
+    .grid .grid-header > .grid-tools a:hover {
+        color: #666666;
+    }
+    
+    .grid .grid-body {
+        padding: 15px 20px 15px 20px;
+        font-size: 0.9em;
+        line-height: 1.9em;
+    }
+ 
+    #profile {
+        padding: 20px;
+      }
+      
+      .lead {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(81, 81, 236);
+      }
+      
+      
+      
+      .col-md-6 {
+        width: 50%;
+        float: left;
+      }
+      
+      .info {
+        font-weight: bold;
+      }
+      
+      .label {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-right: 5px;
+        background-color: rgb(102, 102, 210);
+        color: white;
+      }
+      
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(180, 180, 203);
+      }
+
+      .lead {
+        font-size: 18px;
+      }
+
+      .titleProfile {
+        font-size: 24px; /* Taille de police plus grande */
+        font-weight: bold; /* Texte en gras */
+      }
+
+      .info {
+        font-size: 20px; /* Taille de police plus grande */
+      }
+      .span{
+        margin-left: 10000px;
+      }
+      .space{
+        margin-left: 100px;
+      }
